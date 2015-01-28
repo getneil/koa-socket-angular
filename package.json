@@ -27,12 +27,18 @@
     "coffee-script": "latest",
     "gulp": "latest",
     "gulp-jade": "latest",
+    "gulp-linker": "^0.1.7",
     "gulp-livereload": "latest",
     "gulp-nodemon": "^1.0.5",
-    "koa": "^0.15.0",
-    "koa-router": "^3.8.0",
-    "nodemon": "latest",
     "jade": "latest",
+    "koa": "^0.15.0",
+    "koa-livereload": "^0.1.23",
+    "koa-router": "^3.8.0",
+    "koa-static": "^1.4.8",
+    "nodemon": "latest",
     "then-jade": "latest"
+  },
+  "devDependencies": {
+    "gulp-livereload": "^3.6.0"
   }
 }

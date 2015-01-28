@@ -21,6 +21,30 @@
     "tests"
   ],
   "dependencies":{
-    "angular": "latest"
+    "angular": "latest",
+    "foundation": "latest"
+  },
+  "install": {
+    "path": {
+      "css": "public/styles/dependencies",
+      "js": "public/js/dependencies"
+    },
+    "sources": {
+      "angular":[
+        "bower_components/angular/angular.js"
+      ],
+      "foundation":[
+        "bower_components/foundation/css/foundation.css",
+        "bower_components/foundation/css/normalize.css"
+      ],
+      "modernizr":[
+        "bower_components/modernizr/modernizr.js"
+      ]
+    },
+    "ignore": [
+      "jquery-placeholder",
+      "jquery.cookie",
+      "jquery"
+    ]
   }
 }
