@@ -1,0 +1,26 @@
+{
+  "name": "koa",
+  "version": "0.0.0",
+  "homepage": "https://github.com/getneil/koa-socket-angular",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "koa"
+  ],
+  "authors": [
+    "neil paul molina"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+    "angular": "latest"
+  }
+}
