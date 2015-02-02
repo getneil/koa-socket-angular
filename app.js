@@ -8,7 +8,7 @@ var koa = require('koa'),
 
 app.use(router(app));
 
-app.use(serve('public/'));
+app.use(serve('.tmp/public/'));
 
 app.use(livereload({
 	src  : "http://192.168.30.12:35729/livereload.js"

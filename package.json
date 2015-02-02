@@ -26,6 +26,7 @@
     "co-views": "^0.2.0",
     "coffee-script": "latest",
     "gulp": "latest",
+    "gulp-if": "^1.2.5",
     "gulp-jade": "latest",
     "gulp-linker": "^0.1.7",
     "gulp-livereload": "latest",
@@ -39,6 +40,8 @@
     "then-jade": "latest"
   },
   "devDependencies": {
-    "gulp-livereload": "^3.6.0"
+    "gulp-livereload": "^3.6.0",
+    "require-dir": "^0.1.0",
+    "yargs": "^1.3.3"
   }
 }

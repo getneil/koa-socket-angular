@@ -26,8 +26,8 @@
   },
   "install": {
     "path": {
-      "css": "public/styles/dependencies",
-      "js": "public/js/dependencies"
+      "css": "src/vendor/css",
+      "js": "src/vendor/js"
     },
     "sources": {
       "angular":[
