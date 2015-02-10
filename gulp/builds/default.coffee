@@ -1,3 +1,3 @@
 gulp        = require 'gulp'
 
-gulp.task 'default', ['copy', 'server']
+gulp.task 'default', ['copy','sass','server']
